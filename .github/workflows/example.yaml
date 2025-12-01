@@ -1,0 +1,9 @@
+name: Example
+On: push
+
+jobs: 
+ shell-command:
+   runs-on: ubuntu-latest
+   steps:
+     -name: Echo Test
+      run: echo "Testing Successful"
